@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "surgeon",
+  "info": {
+    "name": "surgeon",
+    "description": "surgeons details\nnumber of patients operated on and names \nmission number could add other missions"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "familyName": {
+      "type": "string"
+    },
+    "missionNumber": {
+      "type": "integer"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "eMail": {
+      "type": "email"
+    },
+    "documents": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "patientsSeen": {
+      "type": "integer"
+    },
+    "patientsOperated": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "integer"
+    },
+    "comments": {
+      "type": "text"
+    }
+  }
+}

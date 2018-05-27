@@ -1,0 +1,74 @@
+{
+  "connection": "default",
+  "collectionName": "management",
+  "info": {
+    "name": "management",
+    "description": "operation information"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "admissionDate": {
+      "type": "date"
+    },
+    "dischargeDate": {
+      "type": "date"
+    },
+    "medication": {
+      "type": "text"
+    },
+    "operationNotes": {
+      "type": "text"
+    },
+    "procedureType": {
+      "type": "string"
+    },
+    "hospitalName": {
+      "type": "string"
+    },
+    "surgeonName": {
+      "type": "string"
+    },
+    "secondSurgery": {
+      "type": "boolean"
+    },
+    "operationDate": {
+      "type": "date"
+    },
+    "totalCost": {
+      "type": "integer"
+    },
+    "trasportationFees": {
+      "type": "boolean"
+    },
+    "transportationFees": {
+      "type": "integer"
+    },
+    "hospitalCost": {
+      "type": "integer"
+    },
+    "photo": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "nextConsultation": {
+      "type": "date"
+    },
+    "secondSurgerydate": {
+      "type": "date"
+    },
+    "labTests": {
+      "type": "text"
+    },
+    "radiology": {
+      "type": "text"
+    },
+    "labAndradiology": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

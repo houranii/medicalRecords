@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/surgeon",
+      "handler": "Surgeon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/surgeon/:_id",
+      "handler": "Surgeon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/surgeon",
+      "handler": "Surgeon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/surgeon/:_id",
+      "handler": "Surgeon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/surgeon/:_id",
+      "handler": "Surgeon.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

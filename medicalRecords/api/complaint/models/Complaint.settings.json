@@ -1,0 +1,51 @@
+{
+  "connection": "default",
+  "collectionName": "comp",
+  "info": {
+    "name": "complaint",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "mainComplaint": {
+      "type": "text"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "firstVisit": {
+      "type": "date"
+    },
+    "surgeon": {
+      "type": "string"
+    },
+    "surgery": {
+      "type": "boolean"
+    },
+    "anasthesiologest": {
+      "type": "boolean"
+    },
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "postpone": {
+      "type": "boolean"
+    },
+    "postponeTo": {
+      "type": "date"
+    },
+    "secondVisit": {
+      "type": "date"
+    },
+    "transportationFees2": {
+      "type": "integer"
+    },
+    "transportationFees1": {
+      "type": "integer"
+    }
+  }
+}

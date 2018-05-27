@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/management",
+      "handler": "Management.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/management/:_id",
+      "handler": "Management.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/management",
+      "handler": "Management.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/management/:_id",
+      "handler": "Management.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/management/:_id",
+      "handler": "Management.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

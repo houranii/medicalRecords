@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "hospitalbill",
+    "description": "stay, surgery and medication"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "totalCost": {
+      "type": "integer"
+    },
+    "bills": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

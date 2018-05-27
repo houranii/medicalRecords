@@ -1,0 +1,251 @@
+{
+  "name": {
+    "attributes": {
+      "first_name": {
+        "appearance": ""
+      },
+      "last_name": {
+        "appearance": ""
+      }
+    }
+  },
+  "patient": {
+    "attributes": {
+      "apply_date": {
+        "appearance": ""
+      },
+      "firstName": {
+        "appearance": ""
+      },
+      "age": {
+        "appearance": ""
+      }
+    }
+  },
+  "patientFile": {
+    "attributes": {
+      "familyName": {
+        "appearance": ""
+      },
+      "address": {
+        "appearance": ""
+      },
+      "nationality": {
+        "appearance": ""
+      },
+      "idNumber": {
+        "appearance": ""
+      },
+      "phoneNumber": {
+        "appearance": ""
+      },
+      "gender": {
+        "appearance": ""
+      },
+      "referral": {
+        "appearance": ""
+      },
+      "history": {
+        "appearance": ""
+      },
+      "contacted": {
+        "appearance": ""
+      },
+      "criteriaFit": {
+        "appearance": ""
+      }
+    }
+  },
+  "comp": {
+    "attributes": {
+      "mainComplaint": {
+        "appearance": ""
+      },
+      "specialty": {
+        "appearance": ""
+      },
+      "firstVisit": {
+        "appearance": ""
+      },
+      "surgeon": {
+        "appearance": ""
+      },
+      "surgery": {
+        "appearance": ""
+      },
+      "anasthesiologest": {
+        "appearance": ""
+      }
+    }
+  },
+  "management": {
+    "attributes": {
+      "admissionDate": {
+        "appearance": ""
+      },
+      "dischargeDate": {
+        "appearance": ""
+      },
+      "medication": {
+        "appearance": ""
+      },
+      "operationNotes": {
+        "appearance": ""
+      },
+      "procedureType": {
+        "appearance": ""
+      },
+      "hospitalName": {
+        "appearance": ""
+      },
+      "surgeonName": {
+        "appearance": ""
+      },
+      "secondSurgery": {
+        "appearance": ""
+      },
+      "operationDate": {
+        "appearance": ""
+      },
+      "totalCost": {
+        "appearance": ""
+      },
+      "trasportationFees": {
+        "appearance": ""
+      },
+      "transportationFees": {
+        "appearance": ""
+      },
+      "hospitalCost": {
+        "appearance": ""
+      },
+      "nextConsultation": {
+        "appearance": ""
+      },
+      "secondSurgerydate": {
+        "appearance": ""
+      },
+      "labTests": {
+        "appearance": ""
+      },
+      "radiology": {
+        "appearance": ""
+      }
+    }
+  },
+  "complaint": {
+    "attributes": {
+      "postpone": {
+        "appearance": ""
+      },
+      "postponeTo": {
+        "appearance": ""
+      },
+      "secondVisit": {
+        "appearance": ""
+      },
+      "transportationFees2": {
+        "appearance": ""
+      },
+      "transportationFees1": {
+        "appearance": ""
+      }
+    }
+  },
+  "followUp": {
+    "attributes": {
+      "physiotherapy": {
+        "appearance": ""
+      },
+      "followupDate": {
+        "appearance": ""
+      },
+      "medication": {
+        "appearance": ""
+      },
+      "transpotationFees": {
+        "appearance": ""
+      },
+      "transportationFees": {
+        "appearance": ""
+      },
+      "dressing": {
+        "appearance": ""
+      },
+      "totalpaid": {
+        "appearance": ""
+      }
+    }
+  },
+  "followup": {
+    "attributes": {
+      "nextVisit": {
+        "appearance": ""
+      }
+    }
+  },
+  "surgeon": {
+    "attributes": {
+      "firstName": {
+        "appearance": ""
+      },
+      "familyName": {
+        "appearance": ""
+      },
+      "missionNumber": {
+        "appearance": ""
+      },
+      "specialty": {
+        "appearance": ""
+      },
+      "eMail": {
+        "appearance": ""
+      },
+      "patientsSeen": {
+        "appearance": ""
+      },
+      "patientsOperated": {
+        "appearance": ""
+      },
+      "phoneNumber": {
+        "appearance": ""
+      },
+      "comments": {
+        "appearance": ""
+      }
+    }
+  },
+  "billing": {
+    "attributes": {
+      "numberOfvisits": {
+        "appearance": ""
+      },
+      "visitDate": {
+        "appearance": ""
+      }
+    }
+  },
+  "visitsCost": {
+    "attributes": {
+      "transportationFees": {
+        "appearance": ""
+      },
+      "medicationFees": {
+        "appearance": ""
+      },
+      "procedureFees": {
+        "appearance": ""
+      },
+      "totalCost": {
+        "appearance": ""
+      }
+    }
+  },
+  "hospitalBill": {
+    "attributes": {
+      "totalCost": {
+        "appearance": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "billing",
+  "info": {
+    "name": "visitsCost",
+    "description": "total cost of visits per patient"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "numberOfvisits": {
+      "type": "integer"
+    },
+    "dateOfvisits": {
+      "type": "date"
+    },
+    "transportationFees": {
+      "type": "integer"
+    },
+    "medicationFees": {
+      "type": "integer"
+    },
+    "procedureFees": {
+      "type": "integer"
+    },
+    "totalCost": {
+      "type": "integer"
+    }
+  }
+}

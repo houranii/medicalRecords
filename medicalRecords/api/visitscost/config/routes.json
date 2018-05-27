@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/visitscost",
+      "handler": "Visitscost.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/visitscost/:_id",
+      "handler": "Visitscost.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/visitscost",
+      "handler": "Visitscost.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/visitscost/:_id",
+      "handler": "Visitscost.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/visitscost/:_id",
+      "handler": "Visitscost.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

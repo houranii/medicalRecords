@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "followup",
+  "info": {
+    "name": "followup",
+    "description": "each follow up visit is added as a new file"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "physiotherapy": {
+      "type": "boolean"
+    },
+    "followupDate": {
+      "type": "date"
+    },
+    "medication": {
+      "type": "string"
+    },
+    "transpotationFees": {
+      "type": "boolean"
+    },
+    "transportationFees": {
+      "type": "integer"
+    },
+    "dressing": {
+      "type": "boolean"
+    },
+    "totalcost": {
+      "type": "integer"
+    },
+    "nextVisit": {
+      "type": "date"
+    },
+    "postopPhotos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

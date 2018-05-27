@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/followup",
+      "handler": "Followup.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/followup/:_id",
+      "handler": "Followup.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/followup",
+      "handler": "Followup.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/followup/:_id",
+      "handler": "Followup.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/followup/:_id",
+      "handler": "Followup.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

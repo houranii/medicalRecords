@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hospitalbill",
+      "handler": "Hospitalbill.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hospitalbill/:_id",
+      "handler": "Hospitalbill.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hospitalbill",
+      "handler": "Hospitalbill.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hospitalbill/:_id",
+      "handler": "Hospitalbill.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hospitalbill/:_id",
+      "handler": "Hospitalbill.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

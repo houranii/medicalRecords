@@ -1,0 +1,52 @@
+{
+  "connection": "default",
+  "collectionName": "patient",
+  "info": {
+    "name": "patientFile",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "apply_date": {
+      "type": "date"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "familyName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "idNumber": {
+      "type": "integer"
+    },
+    "phoneNumber": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "referral": {
+      "type": "boolean"
+    },
+    "history": {
+      "type": "text"
+    },
+    "contacted": {
+      "type": "boolean"
+    },
+    "criteriaFit": {
+      "type": "boolean"
+    }
+  }
+}
